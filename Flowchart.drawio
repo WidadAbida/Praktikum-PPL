@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-10T09:49:05.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Jt3sxDyO79X7lpoI7cXI" version="13.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-10T09:50:28.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="z8Gy3emCdQZxB-JX2qw7" version="13.7.9" type="github" pages="2">
   <diagram id="ip2z6bq11kLtcTajnfLq" name="Flowchart">
-    <mxGraphModel dx="918" dy="2720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="2934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,7 +285,7 @@
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NxU2S_tcDS1lnE2Wx7le-44" target="NxU2S_tcDS1lnE2Wx7le-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1530" y="-30" />
+              <mxPoint x="1530" y="-70" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -338,12 +338,12 @@
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NxU2S_tcDS1lnE2Wx7le-67" target="NxU2S_tcDS1lnE2Wx7le-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="-50" />
+              <mxPoint x="850" y="-70" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-67" value="4.1&lt;br&gt;Pemberian Resep dari Dokter" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="-70" width="120" height="80" as="geometry" />
+          <mxGeometry x="1240" y="-110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NxU2S_tcDS1lnE2Wx7le-72" target="NxU2S_tcDS1lnE2Wx7le-48" edge="1">
           <mxGeometry relative="1" as="geometry">
