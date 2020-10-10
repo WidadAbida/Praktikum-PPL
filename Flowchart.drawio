@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" modified="2020-10-10T06:08:24.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="dDQWRZGVXotakr80tLkc" version="13.7.9" type="github">
   <diagram id="ip2z6bq11kLtcTajnfLq" name="Page-1">
-    <mxGraphModel dx="786" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="2679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,8 +197,92 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7QNK8vU50Cwunx8KSijA-1" value="Flowchart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7QNK8vU50Cwunx8KSijA-1" value="Flowchart" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="-1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-1" value="Flowchart" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-1120" width="540" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-2" value="Pasien" style="swimlane;html=1;startSize=20;" vertex="1" parent="KhloErafn9uWpo-9LLrP-1">
+          <mxGeometry y="20" width="160" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-2" source="KhloErafn9uWpo-9LLrP-5" target="KhloErafn9uWpo-9LLrP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-5" value="Mendaftar ke Sistem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-2">
+          <mxGeometry x="30" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-8" value="Mengajukan resep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-2">
+          <mxGeometry x="30" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-2" source="KhloErafn9uWpo-9LLrP-17" target="KhloErafn9uWpo-9LLrP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-17" value="Menerima resep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-2">
+          <mxGeometry x="30" y="205" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-23" value="Menebus resep di apotek" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-2">
+          <mxGeometry x="30" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-31" value="Aplikasi" style="swimlane;html=1;startSize=20;" vertex="1" parent="KhloErafn9uWpo-9LLrP-1">
+          <mxGeometry x="160" y="20" width="220" height="590" as="geometry">
+            <mxRectangle x="120" y="20" width="30" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-42" value="Menambah jumlah stok obat pasien" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-31">
+          <mxGeometry x="47.5" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-43" value="Mengirimkan pengajuan resep ke akun dokter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-31">
+          <mxGeometry x="50" y="110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-15" value="Mengirimkan resep ke akun pasien" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-31">
+          <mxGeometry x="60" y="205" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-31" source="KhloErafn9uWpo-9LLrP-50" target="KhloErafn9uWpo-9LLrP-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="440" />
+              <mxPoint x="-140" y="180" />
+              <mxPoint x="10" y="180" />
+              <mxPoint x="10" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-50" value="Stok obat pasien habis" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-31">
+          <mxGeometry x="43.75" y="410" width="132.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-3" value="Dokter" style="swimlane;html=1;startSize=20;" vertex="1" parent="KhloErafn9uWpo-9LLrP-1">
+          <mxGeometry x="380" y="20" width="160" height="590" as="geometry">
+            <mxRectangle x="120" y="20" width="30" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-3" source="KhloErafn9uWpo-9LLrP-6" target="KhloErafn9uWpo-9LLrP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-6" value="Mendaftar ke Sistem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-3">
+          <mxGeometry x="30" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-13" value="Menyetujui resep pasien" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhloErafn9uWpo-9LLrP-3">
+          <mxGeometry x="30" y="170" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-1" source="KhloErafn9uWpo-9LLrP-8" target="KhloErafn9uWpo-9LLrP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-1" source="KhloErafn9uWpo-9LLrP-43" target="KhloErafn9uWpo-9LLrP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-1" source="KhloErafn9uWpo-9LLrP-13" target="KhloErafn9uWpo-9LLrP-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-1" source="KhloErafn9uWpo-9LLrP-15" target="KhloErafn9uWpo-9LLrP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhloErafn9uWpo-9LLrP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhloErafn9uWpo-9LLrP-1" source="KhloErafn9uWpo-9LLrP-23" target="KhloErafn9uWpo-9LLrP-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
