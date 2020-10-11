@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-11T01:50:03.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="05s90fhwXYKvGLNrIekU" version="13.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-11T01:56:37.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="4Vn7fpUFZm8U0bf93tLp" version="13.7.9" type="github" pages="2">
   <diagram id="ip2z6bq11kLtcTajnfLq" name="Flowchart">
-    <mxGraphModel dx="655" dy="2655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="2746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -292,13 +292,6 @@
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-44" value="Dokter" style="whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1490" y="-250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NxU2S_tcDS1lnE2Wx7le-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NxU2S_tcDS1lnE2Wx7le-46" target="NxU2S_tcDS1lnE2Wx7le-53" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1240" y="-390" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-46" value="1.2&lt;br&gt;Pendaftaran Dokter ke Sistem" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1240" y="-430" width="120" height="80" as="geometry" />
         </mxCell>
@@ -310,8 +303,8 @@
         <mxCell id="NxU2S_tcDS1lnE2Wx7le-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NxU2S_tcDS1lnE2Wx7le-48" target="NxU2S_tcDS1lnE2Wx7le-84" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1220" y="-220" />
-              <mxPoint x="1220" y="-220" />
+              <mxPoint x="1060" y="-190" />
+              <mxPoint x="1060" y="-220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -474,6 +467,12 @@
         </mxCell>
         <mxCell id="qfS0mpa6ImSl6odylkTh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="KhloErafn9uWpo-9LLrP-1" source="qfS0mpa6ImSl6odylkTh-2" target="qfS0mpa6ImSl6odylkTh-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiaOq-TdWQoLonWsw-E--1" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NxU2S_tcDS1lnE2Wx7le-46" target="NxU2S_tcDS1lnE2Wx7le-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="-330" as="sourcePoint" />
+            <mxPoint x="1170" y="-380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
