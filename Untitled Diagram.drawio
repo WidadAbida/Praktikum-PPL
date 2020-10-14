@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T17:38:30.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="krhBaQ07Z29oevld8T1f" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T17:38:56.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="DHstdSVrbNz0c_a8XuUV" version="13.8.0" type="github">
   <diagram id="rzTe-UA7CJ4xxoBPlnah" name="Page-1">
     <mxGraphModel dx="1502" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-1" value="Pasien" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-1" value="Pasien" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="100" y="240" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-16" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;align=center;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="pzkp8Y3BCJ6zMzNkIyjh-2" target="pzkp8Y3BCJ6zMzNkIyjh-3" edge="1">
@@ -45,7 +45,7 @@
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;targetPerimeterSpacing=0;" parent="1" source="pzkp8Y3BCJ6zMzNkIyjh-2" target="pzkp8Y3BCJ6zMzNkIyjh-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-2" value="Dokter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-2" value="Dokter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="780" y="240" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-3" value="Daftar" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
