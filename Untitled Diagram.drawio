@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T17:39:54.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="01OTuQURQwOG1ZJT4Qwu" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T17:40:02.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="NbJEf-YNZYWUddg7tsfE" version="13.8.0" type="github">
   <diagram id="rzTe-UA7CJ4xxoBPlnah" name="Page-1">
     <mxGraphModel dx="1502" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-6" value="notifikasi" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="440" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-7" value="Sistem permintaan resep" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-7" value="Sistem permintaan&lt;br&gt;resep" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="410" y="510" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-8" value="Membuat resep" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
