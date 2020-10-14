@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T17:40:02.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="NbJEf-YNZYWUddg7tsfE" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T17:40:09.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="ZVf9fgp4e5Dpnhds0frR" version="13.8.0" type="github">
   <diagram id="rzTe-UA7CJ4xxoBPlnah" name="Page-1">
     <mxGraphModel dx="1502" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-41" value="Jika ada keluhan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="480" y="620" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-42" value="Konfirmasi&lt;br style=&quot;font-size: 15px;&quot;&gt;Resep" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-42" value="Konfirmasi&lt;br style=&quot;font-size: 15px;&quot;&gt;Resep" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffffff;fontSize=15;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="620" y="320" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pzkp8Y3BCJ6zMzNkIyjh-43" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=15;fontColor=#000000;align=center;endFill=1;strokeColor=#000000;edgeStyle=orthogonalEdgeStyle;" parent="1" source="pzkp8Y3BCJ6zMzNkIyjh-2" target="pzkp8Y3BCJ6zMzNkIyjh-42" edge="1">
