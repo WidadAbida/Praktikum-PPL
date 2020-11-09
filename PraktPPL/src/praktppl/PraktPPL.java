@@ -32,7 +32,7 @@ public class PraktPPL {
             System.out.println("3. Tebus resep paling lama");
             System.out.println("4. Konfirmasi konsumsi obat");
             System.out.println("5. Exit");
-            System.out.println("> ");
+            System.out.print("> ");
             command = sc.nextInt();
             
             switch(command){
@@ -55,17 +55,21 @@ public class PraktPPL {
                     else{
                         pasien.tebusResep(pasien.daftarResep.get(0));
                     }
+                    break;
                     
                 case 4:
                     String obat;
                     System.out.print("Masukkan nama obat yang dikonsumsi : ");
                     obat = sc.nextLine();
                     if(pasien.jadwal.namaObat.contains(obat)){
-                        
+                        pasien.jadwal.quantity.set(pasien.jadwal.namaObat.indexOf(obat), 
+                                                   pasien.jadwal.quantity.get(
+                                                   pasien.jadwal.namaObat.indexOf(obat)) - 1);
                     }
                     else{
                         System.out.println("Nama obat tidak ditemukan!");
                     }
+                    break;
             }
         }
     }

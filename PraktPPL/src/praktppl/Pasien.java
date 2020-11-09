@@ -30,6 +30,7 @@ public class Pasien extends User{
         NIK = noNIK;
         noTelp = telp;
         dokter = dok;
+        daftarResep = new ArrayList<Resep>();
     }
     
     public void melakukanPermintaan(){
@@ -45,6 +46,7 @@ public class Pasien extends User{
     }
     
     public void tebusResep(Resep resep){  
-        
+        jadwal.update(resep);
+        daftarResep.remove(0);
     }
 }

@@ -26,22 +26,23 @@ public class Dokter extends User{
         assert(req.dokter.namaDokter.equals(namaDokter));
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Id = ");
+        System.out.print("Id Resep = ");
         String id = sc.nextLine();
         
         System.out.print("Jumlah obat = ");
-        int jumlah = sc.nextInt();
+        int jumlah = Integer.parseInt(sc.nextLine());
         
         String nama[] = new String[jumlah];
         int penggunaan[] = new int[jumlah];
         int quantity[] = new int[jumlah];
         
-        System.out.print("Input nama obat, jumlah, dan frekuensi penggunaan : ");
+        System.out.println("Input nama obat, jumlah, dan frekuensi penggunaan : ");
         for(int i = 0; i < jumlah;i++){
-            String[] inp = sc.nextLine().split(" ");
-            nama[i] = inp[0];
-            quantity[i] = Integer.parseInt(inp[1]); 
-            penggunaan[i] = Integer.parseInt(inp[2]); 
+            String inp = sc.nextLine();
+            String[] inparr = inp.split(" ");
+            nama[i] = inparr[0];
+            quantity[i] = Integer.parseInt(inparr[1]); 
+            penggunaan[i] = Integer.parseInt(inparr[2]); 
         }
         
         String stat = "ACC";
