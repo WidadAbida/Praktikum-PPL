@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-09T13:35:22.881Z" agent="5.0 (Windows)" etag="8Zvlk46kiTQvSc6uozID" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-09T13:38:46.524Z" agent="5.0 (Windows)" etag="0Xv_NK2UGqy2ztmuaYp2" version="13.9.2" type="github">
   <diagram id="MlJI2Lvfq05DiYabIVUM" name="Page-1">
     <mxGraphModel dx="1718" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="v66dLdxhp5NwMRdZ7sNX-5" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="110" width="160" height="150" as="geometry" />
+          <mxGeometry x="320" y="110" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="v66dLdxhp5NwMRdZ7sNX-6" value="-userID : string&#xa;-password : string&#xa;-loginStatus : boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="v66dLdxhp5NwMRdZ7sNX-5" vertex="1">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry y="80" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="v66dLdxhp5NwMRdZ7sNX-8" value="+User(String id, String pw)&#xa;+login()&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="v66dLdxhp5NwMRdZ7sNX-5" vertex="1">
-          <mxGeometry y="88" width="160" height="62" as="geometry" />
+          <mxGeometry y="88" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="v66dLdxhp5NwMRdZ7sNX-9" value="Pasien" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="270" width="160" height="160" as="geometry" />
