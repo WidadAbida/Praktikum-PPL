@@ -15,5 +15,9 @@ public class Dokter extends User{
     private String noSIP;
     private String noTelp;
     
+    public Dokter(String id, String pw) {
+        super(id, pw);
+    }
+    
     public void beriResep();
 }
