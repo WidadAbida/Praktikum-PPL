@@ -14,7 +14,7 @@ public class PenjadwalanObat {
     // Note : tanggal bisa pake java.time.LocalDate kl mau
     private int tanggalAwal;
     private int bulanAwal;
-    private String namaObat;
+    private String[] namaObat;
     private int quantity;
     
     public void isi();
