@@ -15,15 +15,12 @@ public class Pasien extends User{
     private String NIK;
     private String noTelp;
     
-    public Pasien(String nP){
-        namaPasien = nP;}
-    
     public Pasien(String id, String pw) {
         super(id, pw);
     }
     
     public void penjadwalanObat();
     
-    
-    
+    public void melakukanPermintaan();
+   
 }
