@@ -11,17 +11,19 @@ package praktppl;
  * @author Aryasakti Wirasena
  */
 public class Resep {
-    private String resepID;
-    private int jumlahObat;
-    private String[] namaObat;
-    private int penggunaanObat;
-    private String status;
+    String resepID;
+    int jumlahObat;
+    String[] namaObat;
+    int[] penggunaanObat;
+    int[] quantityObat;
+    String status;
     
-    public Resep(String id, int jumlah, String[] nama, int penggunaan, String stat){
+    public Resep(String id, int jumlah, String[] nama, int[] penggunaan, int[] quantity, String stat){
         resepID = id;
         jumlahObat = jumlah;
         namaObat = nama;
         penggunaanObat = penggunaan;
+        quantityObat = quantity;
         status = stat;
     }
 }
