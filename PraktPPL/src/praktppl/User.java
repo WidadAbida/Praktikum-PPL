@@ -11,15 +11,17 @@ package praktppl;
  * @author Aryasakti Wirasena
  */
 public class User {
-        private String userID;
-        private String password;
+        String userID;
+        String password;
+        boolean loginStatus;
         
         public User(String id, String pw){
             userID = id;
             password = pw;
+            loginStatus = false;
         }
         
-        public void login();
-        
-        public void daftar();
+        public void login(){
+            loginStatus = true;
+        }
 }
