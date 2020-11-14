@@ -1,10 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 package praktppl;
 
 import java.util.Scanner;
@@ -22,9 +15,8 @@ public class Dokter extends User{
         super(id, pw);
     }
     
-    public Resep beriResep(PermintaanResep req){
+    public Resep beriResep(PermintaanResep req, Scanner sc){
         assert(req.dokter.namaDokter.equals(namaDokter));
-        Scanner sc = new Scanner(System.in);
         
         System.out.print("Id Resep = ");
         String id = sc.nextLine();
@@ -32,9 +24,15 @@ public class Dokter extends User{
         System.out.print("Jumlah obat = ");
         int jumlah = Integer.parseInt(sc.nextLine());
         
+        System.out.print("Tanggal dan bulan = ");
+        String[] temp = sc.nextLine().split(" ");
+        int tanggal = Integer.parseInt(temp[0]);
+        int bulan = Integer.parseInt(temp[0]);
+        
+        
         String nama[] = new String[jumlah];
-        int penggunaan[] = new int[jumlah];
-        int quantity[] = new int[jumlah];
+        Integer penggunaan[] = new Integer[jumlah];
+        Integer quantity[] = new Integer[jumlah];
         
         System.out.println("Input nama obat, jumlah, dan frekuensi penggunaan : ");
         for(int i = 0; i < jumlah;i++){
@@ -46,10 +44,8 @@ public class Dokter extends User{
         }
         
         String stat = "ACC";
-        Resep resep = new Resep(id, jumlah, nama, penggunaan, quantity, stat);
-        sc.close();
+        Resep resep = new Resep(id, tanggal, bulan, jumlah, nama, penggunaan, quantity, stat);
         return resep;
-        
     }
     
     public void daftar(String nama, String SIP, String telp) {

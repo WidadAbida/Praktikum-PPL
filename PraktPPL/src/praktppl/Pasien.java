@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package praktppl;
 
 import java.util.ArrayList;
@@ -30,22 +24,27 @@ public class Pasien extends User{
         NIK = noNIK;
         noTelp = telp;
         dokter = dok;
-        daftarResep = new ArrayList<Resep>();
+        daftarResep = new ArrayList<>();
     }
     
-    public void melakukanPermintaan(){
-        Scanner sc = new Scanner(System.in);
-        
+    public void melakukanPermintaan(Scanner sc){
         System.out.print("Id = ");
-        String id = sc.nextLine();
+        String id = sc.next();
         
         String stat = "PENDING";
         PermintaanResep req = new PermintaanResep(id, dokter, this, stat);
-        Resep resep = dokter.beriResep(req);
+        Resep resep = dokter.beriResep(req, sc);
         daftarResep.add(resep);
     }
     
-    public void tebusResep(Resep resep){  
+    public void tebusResep(Resep resep){ 
+        if(jadwal == null){
+            String[] namaObat = resep.namaObat;
+            Integer[] freq = resep.penggunaanObat;
+            Integer[] quant = resep.quantityObat;
+            jadwal = new PenjadwalanObat(resep.tanggal, resep.bulan, namaObat, freq, quant);
+        }
+            
         jadwal.update(resep);
         daftarResep.remove(0);
     }

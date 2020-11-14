@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package praktppl;
 
 import java.util.Scanner;
@@ -37,20 +32,26 @@ public class PraktPPL {
             
             switch(command){
                 case 1:
-                    for(int i = 0 ;i < pasien.jadwal.namaObat.size();i++){
-                        System.out.println( pasien.jadwal.namaObat.get(i) + 
-                                            pasien.jadwal.frekuensi.get(i) +
-                                            pasien.jadwal.quantity.get(i));
+                    if(pasien.jadwal == null || pasien.jadwal.namaObat.isEmpty()){
+                        System.out.println("Belum ada resep yang ditebus! tebus sebuah resep terlebih dahulu\n");
                     }
+                    else{
+                        for(int i = 0 ;i < pasien.jadwal.namaObat.size();i++){
+                            System.out.println(   pasien.jadwal.namaObat.get(i) + " " + 
+                                                  pasien.jadwal.frekuensi.get(i) + " " +
+                                                  pasien.jadwal.quantity.get(i));
+                        }
+                    }
+                    
                     break;
                 
                 case 2:
-                    pasien.melakukanPermintaan();
+                    pasien.melakukanPermintaan(sc);
                     break;
                 
                 case 3:
                     if(pasien.daftarResep.isEmpty()){
-                        System.out.print("Belum ada resep! minta resep terlebih dahulu");
+                        System.out.println("Belum ada resep! minta resep terlebih dahulu\n");
                     }
                     else{
                         pasien.tebusResep(pasien.daftarResep.get(0));
@@ -58,16 +59,15 @@ public class PraktPPL {
                     break;
                     
                 case 4:
-                    String obat;
                     System.out.print("Masukkan nama obat yang dikonsumsi : ");
-                    obat = sc.nextLine();
+                    String obat = sc.nextLine();
                     if(pasien.jadwal.namaObat.contains(obat)){
                         pasien.jadwal.quantity.set(pasien.jadwal.namaObat.indexOf(obat), 
                                                    pasien.jadwal.quantity.get(
                                                    pasien.jadwal.namaObat.indexOf(obat)) - 1);
                     }
                     else{
-                        System.out.println("Nama obat tidak ditemukan!");
+                        System.out.println("\nNama obat tidak ditemukan!\n");
                     }
                     break;
             }
