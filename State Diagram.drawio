@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T13:13:03.107Z" agent="5.0 (X11)" etag="NLcMQ9gCyGaoBvLAW_oz" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T13:25:26.709Z" agent="5.0 (X11)" etag="G5BKZLNDpN5nH5IDQZX-" version="13.9.9" type="github">
   <diagram id="443qivDFrQDBZfOmN-Y3" name="Page-1">
     <mxGraphModel dx="1651" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="rnjejbEm-blq5eO75BZI-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Dari sisi dokter&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="430" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fTlv61dr849CnfEDX6Ho-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rnjejbEm-blq5eO75BZI-9" target="fTlv61dr849CnfEDX6Ho-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rnjejbEm-blq5eO75BZI-9" value="IDLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="270" y="495" width="90" height="50" as="geometry" />
@@ -197,17 +200,20 @@
             <mxPoint x="50" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiS-ksfsQS22k1eFOl8B-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="IiS-ksfsQS22k1eFOl8B-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="65" y="700" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IiS-ksfsQS22k1eFOl8B-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="IiS-ksfsQS22k1eFOl8B-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="65" y="300" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IiS-ksfsQS22k1eFOl8B-3" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="IiS-ksfsQS22k1eFOl8B-3" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-180" y="537.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IiS-ksfsQS22k1eFOl8B-4" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="IiS-ksfsQS22k1eFOl8B-4" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-175" y="137.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTlv61dr849CnfEDX6Ho-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
