@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T13:25:26.709Z" agent="5.0 (X11)" etag="G5BKZLNDpN5nH5IDQZX-" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T13:28:46.502Z" agent="5.0 (X11)" etag="CNItVp57JxlUzHi43i4w" version="13.9.9" type="github">
   <diagram id="443qivDFrQDBZfOmN-Y3" name="Page-1">
     <mxGraphModel dx="1651" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,36 +82,23 @@
             <mxPoint x="480" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-11" value="Permintaan resep oleh paseian" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="rnjejbEm-blq5eO75BZI-11" value="Menerima permintaan resep" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="364" y="490" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-12" value="Menunggu resep dari dokter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="480" y="495" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-13" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rnjejbEm-blq5eO75BZI-12" target="rnjejbEm-blq5eO75BZI-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="530" as="sourcePoint" />
-            <mxPoint x="680" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-14" value="Resep diterima" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="490" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-15" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Menunggu pasien menebus obat di apotik&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="680" y="495" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rnjejbEm-blq5eO75BZI-15" target="rnjejbEm-blq5eO75BZI-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="530" as="sourcePoint" />
-            <mxPoint x="630" y="610" as="targetPoint" />
+        <mxCell id="fTlv61dr849CnfEDX6Ho-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnjejbEm-blq5eO75BZI-12" target="rnjejbEm-blq5eO75BZI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="725" y="610" />
-              <mxPoint x="315" y="610" />
+              <mxPoint x="525" y="600" />
+              <mxPoint x="315" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rnjejbEm-blq5eO75BZI-19" value="Resep ditebus dan obat diterima" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="616" width="220" height="20" as="geometry" />
+        <mxCell id="rnjejbEm-blq5eO75BZI-12" value="Membuat resep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="480" y="495" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rnjejbEm-blq5eO75BZI-14" value="Mengirim resep ke pasien" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="567.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rnjejbEm-blq5eO75BZI-21" value="Authentication State" style="swimlane;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-90" y="60" width="290" height="200" as="geometry" />
