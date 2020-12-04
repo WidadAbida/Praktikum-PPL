@@ -19,3 +19,6 @@ https://app.diagrams.net/?mode=github#HWidadAbida%2FPraktikum-PPL%2Fmain%2Fclass
 
 State Diagram :
 https://app.diagrams.net/?mode=github#HWidadAbida%2FPraktikum-PPL%2Fmain%2FState%20Diagram.drawio
+
+Sequence Diagram:
+https://app.diagrams.net/#HWidadAbida%2FPraktikum-PPL%2Fmain%2FSequence%20Diagram.drawio
