@@ -1,16 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T06:54:18.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="N_YkVh9NJjl4vKzbXttb" version="13.10.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-04T07:16:15.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aeY4zCbgnQ1DP9lhygfJ" version="13.10.8" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1718" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-33" value="Check for credentials" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.4;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k6oxgYFFSl6XpWiv2npr-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="519" as="sourcePoint" />
+            <mxPoint x="438" y="520.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k6oxgYFFSl6XpWiv2npr-46" value="Check  for Credentials" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="282" y="802" as="sourcePoint" />
             <mxPoint x="592" y="802" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-64" value="" style="endArrow=none;dashed=1;html=1;exitX=0;exitY=0.27;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-64" value="" style="endArrow=none;dashed=1;html=1;exitX=0;exitY=0.27;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="k6oxgYFFSl6XpWiv2npr-63">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-11" y="580" as="sourcePoint" />
             <mxPoint x="688" y="582" as="targetPoint" />
@@ -22,9 +28,9 @@
             <mxPoint x="278.5" y="570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-41" value="Password Changed" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.49;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.2;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k6oxgYFFSl6XpWiv2npr-54" edge="1">
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-41" value="Password Changed" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.49;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="279.75" y="830" as="targetPoint" />
+            <mxPoint x="287" y="830" as="targetPoint" />
             <mxPoint x="600.25" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -40,16 +46,16 @@
             <mxPoint x="279.25" y="719.9990000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-34" value="User Detected" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.49;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k6oxgYFFSl6XpWiv2npr-54" edge="1">
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-34" value="User Detected" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.49;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="279.5" y="560.8899999999999" as="targetPoint" />
-            <mxPoint x="600" y="560.8899999999999" as="sourcePoint" />
+            <mxPoint x="285" y="559.1600000000001" as="targetPoint" />
+            <mxPoint x="599" y="560.8899999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-37" value="User Not Detected" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.49;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k6oxgYFFSl6XpWiv2npr-54" edge="1">
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-37" value="User Not Detected" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.49;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="279.75" y="599.9999999999999" as="targetPoint" />
-            <mxPoint x="600.25" y="599.9999999999999" as="sourcePoint" />
+            <mxPoint x="283.5" y="600" as="targetPoint" />
+            <mxPoint x="604.25" y="599.9999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k6oxgYFFSl6XpWiv2npr-38" value="Access Denied" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.274;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
@@ -58,10 +64,10 @@
             <mxPoint x="278.5" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-39" value="Forget Password" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.333;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k6oxgYFFSl6XpWiv2npr-54" edge="1">
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-39" value="Forget Password" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="650" as="sourcePoint" />
-            <mxPoint x="280" y="650" as="targetPoint" />
+            <mxPoint x="118" y="650" as="sourcePoint" />
+            <mxPoint x="277.5" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k6oxgYFFSl6XpWiv2npr-48" value="Change Password" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
@@ -76,11 +82,8 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Login" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="80" width="100" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-53" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="400" width="10" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="k6oxgYFFSl6XpWiv2npr-54" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="460" width="10" height="330" as="geometry" />
+          <mxGeometry x="45" y="410" width="10" height="380" as="geometry" />
         </mxCell>
         <mxCell id="PirwBWnHNCnHCgOqN0eg-1" value="User&lt;br&gt;(Pasien &amp;amp; Dokter)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="105" y="70" width="30" height="60" as="geometry" />
@@ -151,12 +154,6 @@
             <mxPoint x="280" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-33" value="Check for credentials" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.468;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.4;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="k6oxgYFFSl6XpWiv2npr-50" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="122" y="520" as="sourcePoint" />
-            <mxPoint x="438" y="520.07" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="k6oxgYFFSl6XpWiv2npr-45" value="Request to Reset Password" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="273" y="744" as="sourcePoint" />
@@ -201,9 +198,6 @@
         <mxCell id="k6oxgYFFSl6XpWiv2npr-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="194" width="10" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="k6oxgYFFSl6XpWiv2npr-63" value="Alternatif" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="470" width="700" height="420" as="geometry" />
-        </mxCell>
         <mxCell id="k6oxgYFFSl6XpWiv2npr-66" value="If Password is Valid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-3" y="520" width="120" height="20" as="geometry" />
         </mxCell>
@@ -233,33 +227,42 @@
         <mxCell id="k6oxgYFFSl6XpWiv2npr-50" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="k6oxgYFFSl6XpWiv2npr-25" vertex="1">
           <mxGeometry x="45" y="421" width="10" height="109" as="geometry" />
         </mxCell>
+        <mxCell id="k6oxgYFFSl6XpWiv2npr-63" value="Alternatif" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="470" width="700" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-xzkNrW3wID7cVbXM4L3-2" value="" style="endArrow=none;dashed=1;html=1;exitX=0;exitY=0.27;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="k6oxgYFFSl6XpWiv2npr-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-11" y="580" as="sourcePoint" />
+            <mxPoint x="688" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="qqvi7oIfiIbssmupfklC" name="Pasien">
+  <diagram id="qqvi7oIfiIbssmupfklC" name="Dokter">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IOkvcf6u0ren-Mju1Oe8-0" />
         <mxCell id="IOkvcf6u0ren-Mju1Oe8-1" parent="IOkvcf6u0ren-Mju1Oe8-0" />
-        <mxCell id="LzvwsfAXObTovs_JeoPX-0" value="Notifikasi Sukses&#xa;dan Terima Resep" style="verticalAlign=top;endArrow=block;shadow=0;strokeWidth=1;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-0" value="Tampilkan Daftar&#xa;Permintaam Resep" style="verticalAlign=top;endArrow=block;shadow=0;strokeWidth=1;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="320" as="sourcePoint" />
             <mxPoint x="120" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-1" value="Request Diterima" style="verticalAlign=top;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-1" value="Request &#xa;Pengecekan Diterima" style="verticalAlign=top;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="283.92857142857156" y="300" as="targetPoint" />
             <mxPoint x="443.5" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-2" value="Simpan Request &#xa;Resep Dokter" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-2" value="Mengecek &#xa;Permintaan Resep" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="438" y="241" as="sourcePoint" />
             <mxPoint x="597.5" y="240.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-3" value="Request Telah Disimpan" style="verticalAlign=top;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-3" value="Ada Permintaan Resep  " style="verticalAlign=top;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="280" as="targetPoint" />
             <mxPoint x="604.5" y="280" as="sourcePoint" />
@@ -271,7 +274,7 @@
             <mxPoint x="595" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-5" value="Request Jadwal" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-5" value="Request &#xa;Memberikan Resep" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="422" as="sourcePoint" />
             <mxPoint x="435" y="422" as="targetPoint" />
@@ -283,7 +286,7 @@
             <mxPoint x="120" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-7" value="Request Resep Dokter" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-7" value="Request &#xa;Cek Permintaan Resep" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="281" y="222" as="sourcePoint" />
             <mxPoint x="436" y="222" as="targetPoint" />
@@ -301,10 +304,10 @@
             <mxPoint x="208.5" y="460" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-11" value="User&lt;br&gt;(Pasien)" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;outlineConnect=0;html=1;labelPosition=right;align=left;" vertex="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-11" value="User&lt;br&gt;(Dokter)" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;outlineConnect=0;html=1;labelPosition=right;align=left;" vertex="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry x="106" y="29" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-12" value="Input Penyakit &#xa;dan Obat" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-12" value="Cek Permintaan Resep" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="200" as="sourcePoint" />
             <mxPoint x="275" y="200" as="targetPoint" />
@@ -329,7 +332,7 @@
             <mxPoint x="929.5" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzvwsfAXObTovs_JeoPX-16" value="Atur Jadwal" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.014;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1" target="LzvwsfAXObTovs_JeoPX-9">
+        <mxCell id="LzvwsfAXObTovs_JeoPX-16" value="Memberika Resep" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.014;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IOkvcf6u0ren-Mju1Oe8-1" target="LzvwsfAXObTovs_JeoPX-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="400" as="sourcePoint" />
             <mxPoint x="270" y="400" as="targetPoint" />
@@ -377,7 +380,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Dm1EjcZc9irvqVXLjQCR" name="Dokter">
+  <diagram id="Dm1EjcZc9irvqVXLjQCR" name="Pasien">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5LxRC0RGfm9O3pWz8LP9-0" />
